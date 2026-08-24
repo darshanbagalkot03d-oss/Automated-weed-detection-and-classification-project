@@ -3,7 +3,7 @@ import time
 from ultralytics import YOLO
 
 # Path to your trained model
-MODEL_PATH = "C:\\Users\\Admin\\Documents\\D8055\\6\\MP\\OpenCV_by_PK\\best.pt"   # change if file is in another folder
+MODEL_PATH = "Your_Model_path"   # change if file is in another folder
 
 # Load the trained model
 model = YOLO(MODEL_PATH)

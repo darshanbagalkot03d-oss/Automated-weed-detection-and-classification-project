@@ -8,7 +8,7 @@ CLASS_NAMES = {
     2: "jungle_rice"
 }
 # --- IMPORTANT: Change this path before each run! ---
-LABELS_DIR = 'C:\\Users\\Admin\\Documents\\D8055\\6\\MP\\YOLOv11_Custom\\data_weed\\downloaded_dataset1\\test\\labels' 
+LABELS_DIR = 'Your_folder_path' 
 # ---------------------------------------------------
 
 class_counts = {name: 0 for name in CLASS_NAMES.values()}

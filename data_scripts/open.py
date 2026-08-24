@@ -2,8 +2,8 @@ import cv2
 import os
 
 # paths (update with your dataset folder)
-image_folder = "C:\\Users\\Admin\\Desktopkggle\\Ronin_OPEN_DB\\raw images"
-label_folder = "C:\\Users\\Admin\\Desktop\\kggle\\Ronin_OPEN_DB\\lbls"
+image_folder = "Your_folder_path"
+label_folder = "Your_folder_path"
 
 # class names from your data.yaml
 class_names = ['Prthenium_hysteroporous','pigweed','jjungle rice']  # <-- replace with your own classes

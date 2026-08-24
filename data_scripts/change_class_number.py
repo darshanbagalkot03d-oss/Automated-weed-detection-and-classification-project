@@ -1,7 +1,7 @@
 import os
 
 # Path to pigweed label files
-pigweed_labels_path = "C:\\Users\\Admin\\Desktop\\raygrass\\labels"
+pigweed_labels_path = "Your_floder_path"
 
 # Replace class 0 with 1 for pigweed
 for file in os.listdir(pigweed_labels_path):

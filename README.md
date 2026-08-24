@@ -30,6 +30,13 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 ├── docs/                     # Literature review & research reference papers
 └── weights/                  # Archived model checkpoints (.pt)
 ---
+## 🚀 Key Performance Highlights
+
+* **Detection & Classification:** Real-time computer vision pipeline powered by YOLOv8, trained on a custom-curated dataset of 7,518 images across 5 weed classes.
+* **Accuracy Metrics (COCO Standard):** Achieved **70.04% Precision**, **63.81% Recall**, and a **44.47% mAP@50-95**.
+* **Inference Speed:** Benchmarked at **30.6 FPS (32.6ms latency)** on an NVIDIA T4 GPU at 768px resolution.
+* **Deployment Optimization:** Model exported to **ONNX** format for framework-agnostic portability.
+* **Edge System Architecture:** Bypassed mobile hardware processing limitations by routing frame captures to a central GPU-accelerated backend via ngrok, maintaining high accuracy without sacrificing real-time speed.
 
 ## 💡 Acknowledgements & Development Note
 

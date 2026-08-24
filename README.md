@@ -29,15 +29,37 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 │   └── Roboflow.py           # Dataset export/formatting utilities
 ├── docs/                     # Literature review & research reference papers
 └── weights/                  # Archived model checkpoints (.pt)
+
 ---
-## 🚀 Key Performance Highlights
 
-* **Detection & Classification:** Real-time computer vision pipeline powered by YOLOv8, trained on a custom-curated dataset of 7,518 images across 5 weed classes.
-* **Accuracy Metrics (COCO Standard):** Achieved **70.04% Precision**, **63.81% Recall**, and a **44.47% mAP@50-95**.
-* **Inference Speed:** Benchmarked at **30.6 FPS (32.6ms latency)** on an NVIDIA T4 GPU at 768px resolution.
-* **Deployment Optimization:** Model exported to **ONNX** format for framework-agnostic portability.
-* **Edge System Architecture:** Bypassed mobile hardware processing limitations by routing frame captures to a central GPU-accelerated backend via ngrok, maintaining high accuracy without sacrificing real-time speed.
+🚀 Key Performance Highlights
+Detection & Classification: Real-time computer vision pipeline powered by YOLOv8, trained on a custom-curated dataset of 7,518 images across 5 weed classes.
 
-## 💡 Acknowledgements & Development Note
+Accuracy Metrics (COCO Standard): Achieved 70.04% Precision, 63.81% Recall, and a 44.47% mAP@50-95.
 
-The core conceptualization, system architecture, and agricultural domain logic for this project were entirely designed by the author. Generative AI tools were utilized to assist with rapid boilerplate development, API structuring, and frontend-backend integration.
+Inference Speed: Benchmarked at 30.6 FPS (32.6ms latency) on an NVIDIA T4 GPU at 768px resolution.
+
+Deployment Optimization: Model exported to ONNX format for framework-agnostic portability.
+
+Edge System Architecture: Bypassed mobile hardware processing limitations by routing frame captures to a central GPU-accelerated backend via ngrok, maintaining high accuracy without sacrificing real-time speed.
+
+## 📓 Detailed Logs & Documentation
+For a complete breakdown of dataset rebalancing, custom Python augmentations, hyperparameter tuning (Mosaic, Mixup), and step-by-step training iterations, refer to the [TRAINING_LOG.md](TRAINING_LOG.md).
+
+---
+
+## ⚙️ Quick Start / How to Run
+
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/weed-detection-project.git](https://github.com/your-username/weed-detection-project.git)
+cd weed-detection-project
+
+# Install backend dependencies
+pip install ultralytics fastapi uvicorn opencv-python
+
+# Run the backend API server
+python backend/main.py
+
+💡 Acknowledgements & Development Note
+The core conceptualization, system architecture, agricultural domain logic, and iterative model evaluation for this project were designed and executed by the author. Generative AI tools were utilized to assist with rapid script syntax, API structuring, and frontend-backend integration.

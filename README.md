@@ -29,3 +29,8 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 │   └── Roboflow.py           # Dataset export/formatting utilities
 ├── docs/                     # Literature review & research reference papers
 └── weights/                  # Archived model checkpoints (.pt)
+---
+
+## 💡 Acknowledgements & Development Note
+
+The core conceptualization, system architecture, and agricultural domain logic for this project were entirely designed by the author. Generative AI tools were utilized to assist with rapid boilerplate development, API structuring, and frontend-backend integration.

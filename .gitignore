@@ -1,0 +1,15 @@
+# Python caches and environments
+__pycache__/
+venv/
+*.pyc
+
+# Local databases and executables
+backend/detections.db
+ngrok/
+ngrok.exe
+
+# Ignore output media to save space
+backend/processed_media/*
+backend/results/*
+!backend/processed_media/.gitkeep
+!backend/results/.gitkeep

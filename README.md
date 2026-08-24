@@ -43,14 +43,14 @@ Deployment Optimization: Model exported to ONNX format for framework-agnostic po
 
 Edge System Architecture: Bypassed mobile hardware processing limitations by routing frame captures to a central GPU-accelerated backend via ngrok, maintaining high accuracy without sacrificing real-time speed.
 
-## 📓 Detailed Logs & Documentation
+📓 Detailed Logs & Documentation
 For a complete breakdown of dataset rebalancing, custom Python augmentations, hyperparameter tuning (Mosaic, Mixup), and step-by-step training iterations, refer to the [TRAINING_LOG.md](TRAINING_LOG.md).
 
 ---
 
-## ⚙️ Quick Start / How to Run
+⚙️ Quick Start / How to Run
 
-```bash
+
 # Clone the repository
 git clone [https://github.com/your-username/weed-detection-project.git](https://github.com/your-username/weed-detection-project.git)
 cd weed-detection-project

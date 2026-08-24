@@ -50,7 +50,6 @@ For a complete breakdown of dataset rebalancing, custom Python augmentations, hy
 
 ⚙️ Quick Start / How to Run
 
-
 # Clone the repository
 git clone [https://github.com/your-username/weed-detection-project.git](https://github.com/your-username/weed-detection-project.git)
 cd weed-detection-project

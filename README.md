@@ -20,6 +20,12 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 │   ├── Grph3.png             # YOLOv11 Medium training curve
 │   ├── Grph4.png             # YOLOv11 Large training curve
 │   └── Webpage.jpg           # Dashboard UI interface screenshot
+│   ├── Sample_input_img_1.png # Qualitative sample 1 (raw field input)
+│   ├── Sample_output_img_1.jpg# Qualitative sample 1 (Parthenium detection)
+│   ├── Sample_input_img_2.jpg # Qualitative sample 2 (raw field input)
+│   ├── Sample_output_img_2.jpg# Qualitative sample 2 (Chenopodium detection)
+│   ├── Sample_input_img_3.jpg # Qualitative sample 3 (raw field input)
+│   └── Sample_output_img_3.jpg# Qualitative sample 3 (Amaranthus detection)
 ├── backend/                  # API server & model inference endpoints
 │   ├── models/               # YOLO inference wrappers
 │   ├── best.pt               # Trained YOLO object detection weights
@@ -47,6 +53,16 @@ Inference Speed: Benchmarked at 30.6 FPS (32.6ms latency) on an NVIDIA T4 GPU at
 Deployment Optimization: Model exported to ONNX format for framework-agnostic portability.
 
 Edge System Architecture: Bypassed mobile hardware processing limitations by routing frame captures to a central GPU-accelerated backend via ngrok, maintaining high accuracy without sacrificing real-time speed.
+
+## 🧪 Qualitative Model Detections
+
+The following samples demonstrate the model's performance under varying soil backgrounds and lighting conditions:
+
+| Raw Field Input | YOLO Target Detection | Species & Confidence Score |
+| :---: | :---: | :--- |
+| <img src="assets/Sample_input_img_1.jpg" width="260"> | <img src="assets/Sample_output_img_1.jpg" width="260"> | **Parthenium hysterophorus**<br>Confidence: `79%` |
+| <img src="assets/Sample_input_img_2.jpg" width="260"> | <img src="assets/Sample_output_img_2.jpg" width="260"> | **Chenopodium album**<br>Confidence: `83%` |
+| <img src="assets/Sample_input_img_3.jpg" width="260"> | <img src="assets/Sample_output_img_3.jpg" width="260"> | **Amaranthus palmeri**<br>Confidence: `86%` |
 
 ## 💻 Web Dashboard & Real-Time Deployment
 

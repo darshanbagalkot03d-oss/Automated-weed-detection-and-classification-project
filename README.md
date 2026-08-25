@@ -36,7 +36,8 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 └── weights/                  # Archived model checkpoints (.pt)
 ```
 
-🚀 Key Performance Highlights
+## 🚀 Key Performance Highlights
+
 Detection & Classification: Real-time computer vision pipeline powered by YOLOv8, trained on a custom-curated dataset of 7,518 images across 5 weed classes.
 
 Accuracy Metrics (COCO Standard): Achieved 70.04% Precision, 63.81% Recall, and a 44.47% mAP@50-95.
@@ -47,10 +48,12 @@ Deployment Optimization: Model exported to ONNX format for framework-agnostic po
 
 Edge System Architecture: Bypassed mobile hardware processing limitations by routing frame captures to a central GPU-accelerated backend via ngrok, maintaining high accuracy without sacrificing real-time speed.
 
-💻 Web Dashboard & Real-Time Deployment
+## 💻 Web Dashboard & Real-Time Deployment
+
 The project features a full-stack dashboard built with FastAPI/Flask, HTML/CSS/JS, and YOLOv8, allowing farmers and researchers to perform edge detection in real time.
 
 Key Dashboard Capabilities
+
 Dual Inference Pipeline: Real-time webcam video feeds (Live Feed) and static image analysis (Image Upload).
 
 Geospatial Mapping: Integrated GIS mapping (Leaflet/Google Maps) to geotag weed distributions across fields.
@@ -59,22 +62,23 @@ Target Species Logging: Real-time log tracking for identified species (Amaranthu
 
 Edge System Architecture: Bypassed mobile hardware processing limitations by routing frame captures to a central GPU-accelerated backend via ngrok.
 
-📓 Detailed Logs & Documentation
+## 📓 Detailed Logs & Documentation
+
 For a complete breakdown of dataset rebalancing, custom Python augmentations, hyperparameter tuning (Mosaic, Mixup), and step-by-step training iterations, refer to the [TRAINING_LOG.md](TRAINING_LOG.md).
 
 ---
 
 ⚙️ Quick Start / How to Run
 
-# Clone the repository
+### Clone the repository
 git clone [https://github.com/your-username/weed-detection-project.git](https://github.com/your-username/weed-detection-project.git)
 cd weed-detection-project
 
-# Install backend dependencies
+### Install backend dependencies
 pip install ultralytics fastapi uvicorn opencv-python
 
-# Run the backend API server
+### Run the backend API server
 python backend/main.py
 
-💡 Acknowledgements & Development Note
+## 💡 Acknowledgements & Development Note
 The core conceptualization, system architecture, agricultural domain logic, and iterative model evaluation for this project were designed and executed by the author. Generative AI tools were utilized to assist with rapid script syntax, API structuring, and frontend-backend integration.

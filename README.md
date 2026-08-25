@@ -60,9 +60,9 @@ The following samples demonstrate the model's performance under varying soil bac
 
 | Raw Field Input | YOLO Target Detection | Species & Confidence Score |
 | :---: | :---: | :--- |
-| <img src="assets/Sample_input_img_1.jpg" width="260"> | <img src="assets/Sample_output_img_1.jpg" width="260"> | **Parthenium hysterophorus**<br>Confidence: `79%` |
-| <img src="assets/Sample_input_img_2.jpg" width="260"> | <img src="assets/Sample_output_img_2.jpg" width="260"> | **Chenopodium album**<br>Confidence: `83%` |
-| <img src="assets/Sample_input_img_3.jpg" width="260"> | <img src="assets/Sample_output_img_3.jpg" width="260"> | **Amaranthus palmeri**<br>Confidence: `86%` |
+| <img src="assets/Sample_input_img_1.png" width="200"> | <img src="assets/Sample_output_img_1.jpg" width="200"> | **Parthenium hysterophorus**<br>Confidence: `79%` |
+| <img src="assets/Sample_input_img_2.jpg" width="200"> | <img src="assets/Sample_output_img_2.jpg" width="200"> | **Chenopodium album**<br>Confidence: `83%` |
+| <img src="assets/Sample_input_img_3.jpg" width="200"> | <img src="assets/Sample_output_img_3.jpg" width="200"> | **Amaranthus palmeri**<br>Confidence: `86%` |
 
 ## 💻 Web Dashboard & Real-Time Deployment
 

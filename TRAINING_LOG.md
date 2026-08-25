@@ -66,6 +66,7 @@ Following insights from the YOLO11 experiments, the dataset was scaled up to **7
   <img src="assets/Grph1.jpg" width="48%" alt="YOLOv8 Model Metrics" />
   <img src="assets/Grph2.png" width="48%" alt="YOLOv8 F1 Score Curve" />
 </p>
+
 * **Final Model Metrics (COCO Standard):**
   * **Precision:** 70.04%
   * **Recall:** 63.81%

@@ -44,7 +44,7 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 
 ## 🚀 Key Performance Highlights
 
-#### Detection & Classification: Real-time computer vision pipeline powered by YOLOv8, trained on a custom-curated dataset of 7,518 images across 5 weed classes.
+Detection & Classification:Real-time computer vision pipeline powered by YOLOv8, trained on a custom-curated dataset of 7,518 images across 5 weed classes.
 
 Accuracy Metrics (COCO Standard): Achieved 70.04% Precision, 63.81% Recall, and a 44.47% mAP@50-95.
 

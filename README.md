@@ -68,6 +68,8 @@ The following samples demonstrate the model's performance under varying soil bac
 
 The project features a full-stack dashboard built with FastAPI/Flask, HTML/CSS/JS, and YOLOv8, allowing farmers and researchers to perform edge detection in real time.
 
+🔍 **[View Dashboard UI Preview](assets/Webpage.png)**
+
 Key Dashboard Capabilities
 
 Dual Inference Pipeline: Real-time webcam video feeds (Live Feed) and static image analysis (Image Upload).

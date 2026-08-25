@@ -34,8 +34,7 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 │   └── Roboflow.py           # Dataset export/formatting utilities
 ├── docs/                     # Literature review & research reference papers
 └── weights/                  # Archived model checkpoints (.pt)
-
----
+```
 
 🚀 Key Performance Highlights
 Detection & Classification: Real-time computer vision pipeline powered by YOLOv8, trained on a custom-curated dataset of 7,518 images across 5 weed classes.

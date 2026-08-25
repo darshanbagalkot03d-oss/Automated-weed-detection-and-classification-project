@@ -63,7 +63,7 @@ Following insights from the YOLO11 experiments, the dataset was scaled up to **7
 
 <p align="center">
 <p align="center">
-  <img src="assets/Grph1.jpg" width="48%" alt="YOLOv8 Model Metrics" />
+  <img src="assets/Grph1.png" width="48%" alt="YOLOv8 Model Metrics" />
   <img src="assets/Grph2.png" width="48%" alt="YOLOv8 F1 Score Curve" />
 </p>
 

@@ -11,6 +11,20 @@ Invasive weed species such as *Amaranthus palmeri* (Palmer amaranth) present sev
 The rapid proliferation of target-site and non-target-site metabolic herbicide resistance across *Amaranthus* populations makes conventional broad-spectrum chemical application increasingly ineffective (Shyam et al., 2021). This system leverages real-time deep learning detection to enable precision micro-targeting, reducing chemical dependency and mitigating resistance selection pressures.
 
 ---
+
+## 🔄 End-to-End System Workflow
+
+```mermaid
+flowchart TD
+    A["1. Image Acquisition & Dataset Collection"] --> B["2. Image Annotation<br><i>(LabelImg, Bounding Boxes & Class Names)</i>"]
+    B --> C["3. Image Preprocessing<br><i>(Resize, Normalize, Noise Removal)</i>"]
+    C --> D["4. Data Augmentation<br><i>(Flip, Rotate, Brightness, Mosaic, Mixup)</i>"]
+    D --> E["5. YOLO Training<br><i>(Backbone, Epochs & Batch Size Setup)</i>"]
+    E --> F["6. Model Validation<br><i>(Loss, mAP, Precision, Recall)</i>"]
+    F --> G["7. YOLO-Based Detection & Weed Classification<br><i>(Bounding Boxes + Confidence Scores)</i>"]
+    G --> H["8. Output Display<br><i>(Detected Weeds with Labels & Confidence on Web Dashboard)</i>"]
+```
+
 ## 📁 Repository Structure
 
 ```text
@@ -19,7 +33,8 @@ The rapid proliferation of target-site and non-target-site metabolic herbicide r
 │   ├── Grph2.png             # F1 Score over epochs curve
 │   ├── Grph3.png             # YOLOv11 Medium training curve
 │   ├── Grph4.png             # YOLOv11 Large training curve
-│   └── Webpage.jpg           # Dashboard UI interface screenshot
+│   ├── Webpage.jpg           # Dashboard UI interface screenshot
+│   ├── workflow.png          # System architecture flowchart
 │   ├── Sample_input_img_1.png # Qualitative sample 1 (raw field input)
 │   ├── Sample_output_img_1.jpg# Qualitative sample 1 (Parthenium detection)
 │   ├── Sample_input_img_2.jpg # Qualitative sample 2 (raw field input)

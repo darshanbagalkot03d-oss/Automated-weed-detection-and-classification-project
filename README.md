@@ -54,7 +54,10 @@ flowchart TD
 │   ├── Predict.py            # Offline image prediction pipeline
 │   └── Roboflow.py           # Dataset export/formatting utilities
 ├── docs/                     # Literature review & research reference papers
-└── weights/                  # Archived model checkpoints (.pt)
+├── weights/                  # Archived model checkpoints (.pt)[cite: 2]
+├── .gitignore                # Git ignore rules
+├── LICENSE                   # Apache 2.0 Open Source License
+└── README.md                 # Master repository overview
 ```
 
 ## 🚀 Key Performance Highlights
@@ -115,3 +118,13 @@ python backend/main.py
 
 ## 💡 Acknowledgements & Development Note
 The core conceptualization, system architecture, agricultural domain logic, and iterative model evaluation for this project were designed and executed by the author. Generative AI tools were utilized to assist with rapid script syntax, API structuring, and frontend-backend integration.
+
+---
+
+## 📄 License & Attribution
+
+This project is licensed under the **Apache License 2.0** - see the [`LICENSE.md`](LICENSE.md) file for details.
+
+* **Source Code & Model Architecture:** Free to run, modify, and distribute with proper copyright attribution under Apache 2.0.
+* **Dataset:** Annotated images were sourced from Roboflow. Image rights and original annotations belong to their respective creators under Roboflow license terms.
+* **Trained Weights:** Provided for academic research, evaluation, and non-commercial precision agriculture benchmarking.
